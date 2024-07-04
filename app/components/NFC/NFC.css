@@ -1,0 +1,138 @@
+.nfc {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #eee;
+}
+.nfc h2 {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nfc > a {
+  text-decoration: underline;
+  font-size: 1rem;
+  color: blue;
+  font-weight: 500;
+}
+.nfc .swiper {
+  width: 100%;
+  z-index: 1;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.nfc .swiper .swiper-wrapper {
+  height: 365px;
+  width: 100%;
+}
+.nfc .swiper .swiper-wrapper .swiper-slide {
+  width: auto;
+}
+.nfc .swiper .swiper-wrapper .swiper-slide .nfc_card {
+  width: 320px;
+  height: 500px;
+}
+.nfc .nfc_card .nfc_image,
+.nfc .nfc_card .nfc_image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.nfc .nfc_card .nfc_content,
+.nfc .nfc_card .nfc_btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.nfc .nfc_card .nfc_content h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nfc .nfc_card .nfc_content p {
+  font-size: 1.05rem;
+  color: #777;
+  margin-top: 10px;
+}
+
+.nfc .nfc_card .nfc_btn button {
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 1rem 0;
+  border: 1px solid #555;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+.nfc .nfc_card .nfc_btn button:hover {
+  background-color: #111;
+  color: #fff;
+}
+.nfc .nfc_card .nfc_btn button:active {
+  transform: scale(0.9);
+}
+.nfc .swiper .swiper-button-prev,
+.nfc .swiper .swiper-button-next {
+  position: absolute;
+  top: 25px;
+}
+.nfc .swiper .swiper-button-prev::after,
+.nfc .swiper .swiper-button-next::after {
+  color: #000;
+  font-size: 2rem;
+}
+.nfc .swipe .swiper-button-prev {
+  right: 30px;
+}
+.nfc .swiper .swiper-button-next {
+  right: 80px;
+}
+.nfc .swiper .swiper-pagination .swiper-pagination-bullet {
+  background-color: #000;
+}
+.nfc .social_banner {
+  width: 100%;
+  height: 300px;
+  background-image: url(/images/futuer.jpeg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.nfc .social_banner h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bold;
+}
+.nfc .social_banner p {
+  color: #aaa;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 530px) {
+  .nfc .swiper .swiper-button-prev,
+  .nfc .swiper .swiper-button-next {
+    display: block;
+    top: 25px;
+  }
+  .nfc .swiper .swiper-wrapper .swiper-slide .nfc_card {
+    width: 280px;
+  }
+  .nfc .social_banner {
+    height: 250px;
+  }
+  .nfc .social_banner h2 {
+    font-size: 2rem;
+  }
+  .nfc .social_banner p {
+    font-size: 1.1rem;
+  }
+}

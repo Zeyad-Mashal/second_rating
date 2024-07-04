@@ -1,0 +1,77 @@
+.allnfc {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+.allnfc_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  flex-direction: column;
+  margin-top: 5rem;
+  padding: 10px;
+}
+.allnfc_container > h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #222;
+}
+.allnfc_list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.allnfc_item {
+  width: 320px;
+  height: auto;
+  border-radius: 10px;
+}
+.allnfc_item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.allnfc_item_content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.allnfc_item_content > h3 {
+  font-size: 1.35rem;
+  color: #222;
+}
+.allnfc_item_content > p {
+  color: #999;
+  font-size: 1rem;
+}
+.nfc_item_btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.nfc_item_btn button {
+  padding: 10px 30px;
+  background-color: #aaa;
+  color: #222;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+.nfc_item_btn button:hover {
+  background-color: #111;
+  color: #fff;
+}
+.nfc_item_btn button:active {
+  transform: scale(0.9);
+}

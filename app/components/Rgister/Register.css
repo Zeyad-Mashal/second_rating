@@ -1,0 +1,21 @@
+.register,
+.register_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+.register_image {
+  width: 50%;
+  height: 100%;
+}
+.register_image img {
+  width: 100%;
+  height: 100%;
+}
+.register_form {
+  width: 350px;
+  background-color: #5555;
+}

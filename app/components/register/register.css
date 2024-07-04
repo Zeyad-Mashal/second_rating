@@ -1,0 +1,26 @@
+.register,
+.register_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.register_form {
+  width: 500px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  border-radius: 16px;
+  box-shadow: 4px 4px 4px #333;
+}
+.register_form input {
+  padding: 10px;
+  border-radius: 10px;
+  width: 90%;
+  outline: none;
+  border: 1px solid #999;
+}
