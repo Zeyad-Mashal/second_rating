@@ -12,7 +12,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
-const cardDetails = () => {
+const CardDetails = () => {
   const pricePerUnit = 100;
   const [quantity, setQuantity] = useState(1);
   const [totalPrice, setTotalPrice] = useState(pricePerUnit);
@@ -99,4 +99,4 @@ const cardDetails = () => {
   );
 };
 
-export default cardDetails;
+export default CardDetails;
