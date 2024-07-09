@@ -28,24 +28,27 @@ export default function NFC() {
         modules={[Pagination, Navigation]}
       >
         <SwiperSlide>
-          <div className="nfc_card">
-            <div className="nfc_image">
-              <Image
-                src="/images/card.jpg"
-                width={800}
-                height={800}
-                alt="product nfc"
-              />
+          <Link href="/components/cardDetails">
+            <div className="nfc_card">
+              <div className="nfc_image">
+                <Image
+                  src="/images/card.jpg"
+                  width={800}
+                  height={800}
+                  alt="product nfc"
+                />
+              </div>
+              <div className="nfc_content">
+                <h3>Product Name</h3>
+                <p>100 SAR</p>
+              </div>
+              <div className="nfc_btn">
+                <button>Add to Cart</button>
+              </div>
             </div>
-            <div className="nfc_content">
-              <h3>Product Name</h3>
-              <p>100 SAR</p>
-            </div>
-            <div className="nfc_btn">
-              <button>Add to Cart</button>
-            </div>
-          </div>
+          </Link>
         </SwiperSlide>
+
         <SwiperSlide>
           <div className="nfc_card">
             <div className="nfc_image">
