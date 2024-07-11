@@ -15,7 +15,7 @@ const addToFav = () => {
       <Navbar />
       <section className="addToFav">
         <div className="addToFav_container">
-          <h2>منتاجاتك المفضلة سكند ريتينج</h2>
+          <h2>منتاجاتك المفضلة من سكند ريتينج</h2>
           <div className="addToFav_list">
             <div className="addToFav_item">
               <Image src="/images/card.jpg" width={500} height={500} />
