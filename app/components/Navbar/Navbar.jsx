@@ -50,10 +50,10 @@ const Navbar = () => {
         </div>
 
         <div className="navbar_tools">
-          <Link href="/">
+          <Link href="/components/addToFav">
             <FontAwesomeIcon icon={faHeart} />
           </Link>
-          <Link href="/">
+          <Link href="/components/cart">
             <FontAwesomeIcon icon={faCartShopping} />
           </Link>
           <Link href="/">
