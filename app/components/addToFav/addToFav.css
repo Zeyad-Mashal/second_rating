@@ -27,6 +27,12 @@
   flex-direction: column;
   gap: 1rem;
 }
+.addToFav_list a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .addToFav_item {
   width: 60%;
   display: flex;

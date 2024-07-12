@@ -32,19 +32,19 @@ const Navbar = () => {
         <div className="navbar_links">
           <ul>
             <li>
-              <Link href="/">Home</Link>
+              <Link href="/">الرئيسية</Link>
             </li>
             <li>
-              <Link href="/">Home</Link>
+              <Link href="/">البطاقات الذكية</Link>
             </li>
             <li>
-              <Link href="/">Home</Link>
+              <Link href="/">السوشيال ميديا</Link>
             </li>
             <li>
-              <Link href="/">Home</Link>
+              <Link href="/">محركات البحث</Link>
             </li>
             <li>
-              <Link href="/">Home</Link>
+              <Link href="/">خدمات أخري</Link>
             </li>
           </ul>
         </div>
@@ -80,19 +80,19 @@ const Navbar = () => {
         </div>
         <ul className="navbar_list_menu">
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/">الرئيسية</Link>
           </li>
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/">البطاقات الذكية</Link>
           </li>
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/">السوشيال ميديا</Link>
           </li>
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/">محركات البحث</Link>
           </li>
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/">خدمات أخري</Link>
           </li>
         </ul>
       </div>

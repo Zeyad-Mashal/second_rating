@@ -9,6 +9,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
+import Link from "next/link";
 const More = () => {
   return (
     <section className="more">
@@ -37,7 +38,9 @@ const More = () => {
                     deleniti eum repellendus, voluptatum, praesentium molestiae
                     adipisci corrupti illum in delectus!
                   </p>
-                  <button className="item_btn">View More</button>
+                  <Link href="/components/moreDetails">
+                    <button className="item_btn">View More</button>
+                  </Link>
                 </div>
               </div>
             </SwiperSlide>

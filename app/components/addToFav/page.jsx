@@ -6,6 +6,7 @@ import "./addToFav.css";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 const addToFav = () => {
   const removeFav = () => {
     document.querySelector(".addToFav_item").remove();
@@ -17,30 +18,36 @@ const addToFav = () => {
         <div className="addToFav_container">
           <h2>منتاجاتك المفضلة من سكند ريتينج</h2>
           <div className="addToFav_list">
-            <div className="addToFav_item">
-              <Image src="/images/card.jpg" width={500} height={500} />
-              <div className="addToFav_item_content">
-                <h3>أسم المنتج</h3>
-                <p>100 ريال</p>
-                <FontAwesomeIcon icon={faHeart} onClick={removeFav} />
+            <Link href="/components/cardDetails">
+              <div className="addToFav_item">
+                <Image src="/images/card.jpg" width={500} height={500} />
+                <div className="addToFav_item_content">
+                  <h3>أسم المنتج</h3>
+                  <p>100 ريال</p>
+                  <FontAwesomeIcon icon={faHeart} onClick={removeFav} />
+                </div>
               </div>
-            </div>
-            <div className="addToFav_item">
-              <Image src="/images/card.jpg" width={500} height={500} />
-              <div className="addToFav_item_content">
-                <h3>أسم المنتج</h3>
-                <p>100 ريال</p>
-                <FontAwesomeIcon icon={faHeart} onClick={removeFav} />
+            </Link>
+            <Link href="/components/cardDetails">
+              <div className="addToFav_item">
+                <Image src="/images/card.jpg" width={500} height={500} />
+                <div className="addToFav_item_content">
+                  <h3>أسم المنتج</h3>
+                  <p>100 ريال</p>
+                  <FontAwesomeIcon icon={faHeart} onClick={removeFav} />
+                </div>
               </div>
-            </div>
-            <div className="addToFav_item">
-              <Image src="/images/card.jpg" width={500} height={500} />
-              <div className="addToFav_item_content">
-                <h3>أسم المنتج</h3>
-                <p>100 ريال</p>
-                <FontAwesomeIcon icon={faHeart} onClick={removeFav} />
+            </Link>
+            <Link href="/components/cardDetails">
+              <div className="addToFav_item">
+                <Image src="/images/card.jpg" width={500} height={500} />
+                <div className="addToFav_item_content">
+                  <h3>أسم المنتج</h3>
+                  <p>100 ريال</p>
+                  <FontAwesomeIcon icon={faHeart} onClick={removeFav} />
+                </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </section>
