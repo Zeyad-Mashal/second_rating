@@ -6,3 +6,9 @@ body {
   direction: rtl;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.video {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

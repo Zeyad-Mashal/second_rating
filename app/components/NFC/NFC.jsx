@@ -3,14 +3,12 @@ import React from "react";
 import "./NFC.css";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
 import Link from "next/link";
-
 export default function NFC() {
   return (
     <section className="nfc">
